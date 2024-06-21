@@ -1,0 +1,29 @@
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .league-section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .central {
+            background-color: #F0F8FF; /* セ・リーグ: ライトブルー */
+        }
+        .pacific {
+            background-color: #FFE4E1; /* パ・リーグ: ライトピンク */
+        }
+        h1 {
+            text-align: center;
+        }
+        .player {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #fff;
+        }
+        .player h2 {
+            margin: 0 0 10px 0;
+        }
+        .player p {
+            margin: 5px 0;
+        }
