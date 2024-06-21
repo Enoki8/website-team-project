@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+.container {
+    padding: 2rem;
+}
+.teams {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.team {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.team img {
+    max-width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .team {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+@media screen and (max-width: 500px) {
+    .team {
+        flex: 1 1 100%;
+    }
+}
